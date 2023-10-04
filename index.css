@@ -1,0 +1,244 @@
+body {
+  background-color: #efede7;
+  margin: 0;
+}
+
+.nav {
+  height: 1, 023px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  background-color: #deddda;
+}
+
+.nav-div {
+  color: aquamarine;
+  background-color: black;
+  border: 1px rgb(182, 175, 175);
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav-list-1 {
+  text-decoration: none;
+  color: black;
+}
+
+/* ===================bennar=========== */
+.bennar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 941px;
+  top: 81px;
+  padding: 96px, 112px, 96px, 112px;
+  gap: 10px;
+  margin-bottom: 50px;
+  padding: 50px;
+  /* background-image: url(./assetes/Freepik\ image.jpg); */
+  border-bottom: 2px solid rgb(181, 176, 176);
+}
+
+.bennar-bennar {
+  text-align: center;
+  width: 100%;
+  height: 831px;
+  gap: 64px;
+}
+
+.bennar-img {
+  width: 1216px;
+  height: 592px;
+  margin-top: 30px;
+}
+.bennar-head {
+  font-size: 45px;
+  font-style: italic;
+  font-family: Cormorant;
+  font-weight: 400;
+  line-height: 78px;
+  letter-spacing: 0em;
+}
+
+.bennar-text {
+  width: 639px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* ================2nd-bennar================*/
+
+.bennar-2nd {
+  width: 100%;
+  height: 748px;
+  top: 1104px;
+  padding: 96px, 112px, 96px, 112px;
+  gap: 10px;
+  display: flex;
+}
+
+.bennar-2nd-in {
+  height: 556px;
+  width: 1216px;
+  display: flex;
+  gap: 96px;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.bennar-2nd-in-text {
+  height: 363px;
+  width: 419px;
+  box-sizing: border-box;
+  margin-top: 192px;
+}
+
+.bennar-2nd-img {
+  height: 556px;
+  width: 424px;
+  margin-top: 96px;
+  z-index: 2;
+}
+
+/* ========== bennar 3rd========== */
+
+.bennar-3rd {
+  width: 100%;
+  height: 748px;
+  padding: 96px, 112px, 96px, 112px;
+  gap: 10px;
+  background-color: aquamarine;
+}
+
+/* =============text-content============= */
+
+.text-content {
+  height: 514px;
+  width: 100%;
+  background-color: rgba(17, 17, 17, 0.05);
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-div {
+  width: 1026px;
+  height: 232px;
+}
+
+.text-text {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 141px;
+  margin-bottom: 141px;
+  text-align: center;
+  align-items: center;
+}
+/* <!-- ===============2nd bennar================--> */
+.contact {
+  width: 100%;
+  height: 700px;
+  gap: 64px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-head {
+  width: 480px;
+  height: 500px;
+  gap: 20px;
+  align-items: center;
+  margin: auto 0;
+}
+
+.contact-head-text {
+  margin: 0 auto;
+}
+.contact-form {
+  gap: 10px;
+}
+
+.frist-name {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 42px;
+}
+
+.last-name {
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.email {
+  height: 40px;
+  width: 480px;
+  gap: 60px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.teliphone {
+  height: 40px;
+  width: 100%;
+  gap: 60px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.text {
+  height: 150px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.submit {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+/* =====footer-img==== */
+
+.footer-img {
+  background-image: url(./assetes/foooter.png);
+  width: 100%;
+  height: 474px;
+  display: flex;
+  justify-content: center;
+}
+
+.img-head-text {
+  height: 110px;
+  width: 540px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 55px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button {
+  margin-left: 50%;
+  transform: translate(-50%);
+  margin: top 20px;
+}
